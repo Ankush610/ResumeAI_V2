@@ -1,0 +1,23 @@
+name: ResumeAI
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.21
+  - pandas
+  - matplotlib
+  - seaborn
+  - notebook
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # Adjust based on your GPU compatibility
+  - python-docx
+  - pip
+  - pip:
+      - gradio
+      - transformers
+      - accelerate
+      - huggingface_hub
+      - python-dotenv
+      - pymupdf
