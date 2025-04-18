@@ -14,6 +14,7 @@ dependencies:
   - cudatoolkit=11.8  # Adjust based on your GPU compatibility
   - python-docx
   - pip
+  - pytest # For testing
   - pip:
       - gradio
       - transformers
